@@ -1,0 +1,20 @@
+{
+  "name": "hpool-api",
+  "version": "0.0.1",
+  "description": "Interact with the HPool account API programatically.",
+  "keywords": [
+    "hpool",
+    "api",
+    "bhd"
+  ],
+  "repository": "https://github.com/felixbrucker/hpool-api.git",
+  "bugs": "https://github.com/felixbrucker/hpool-api/issues",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dayjs": "^1.8.10"
+  },
+  "engines": {
+    "node": "^10.0.0"
+  }
+}
