@@ -11,9 +11,8 @@ HPool API
 const HpoolApi = require('hpool-api');
 
 (async () => {
-  const client = new HpoolApi('my-api-key', 'my-user-name');
+  const client = new HpoolApi('my-api-key', 'my-user-name', 'connection cookie string');
   try {
-    const result = await client.bindPlotter('bind data hex string');
     const capacity = await client.getPoolCapacityInGB();
     const onlineUser = await client.getPoolUserOnline();
     const onlineMiner = await client.getPoolMinerOnline();
