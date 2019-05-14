@@ -1,6 +1,6 @@
 {
   "name": "hpool-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interact with the HPool account API programatically.",
   "keywords": [
     "hpool",
